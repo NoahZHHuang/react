@@ -7,6 +7,7 @@ const HTMLWebpackPlugin = new HtmlWebpackPlugin({
 	inject: 'body'
 });
 
+
 module.exports = {
 	entry: [
 		'./app/index.js'
@@ -31,5 +32,7 @@ module.exports = {
 		inline: true,
 		port: 8008
 	},
-	plugins: [HTMLWebpackPlugin]
+	plugins: [
+		HTMLWebpackPlugin
+	]
 };

@@ -4,8 +4,8 @@
   "description": "a simple example of webpack",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build",
-    "pack": "webpack --watch"
+    "pack": "webpack --watch",
+    "start": "webpack-dev-server --hot --inline --open"
   },
   "author": "Noah",
   "license": "ISC",
